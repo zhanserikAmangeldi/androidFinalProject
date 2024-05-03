@@ -1,20 +1,19 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello seven fragment</string>
-    <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
+    <string name="app_name">Weather</string>
 
-    <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
-    <string name="reply_title">Default reply action</string>
 
-    <!-- Sync Preferences -->
-    <string name="sync_title">Sync email periodically</string>
-    <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
-    <string name="attachment_summary_off">Only download attachments when manually requested</string>
-    <string name="title">WeatherApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_location_text">Location</string>
+    <string name="menu_one_day_text">One Day</string>
+    <string name="menu_five_days_text">Five Days</string>
+
+    <string name="text_pressure">Pressure</string>
+    <string name="text_wind">Wind</string>
+    <string name="text_sunrise">Sunrise</string>
+    <string name="text_humidity">Humidity</string>
+    <string name="text_visibility">Visibility</string>
+    <string name="text_sunset">Sunset</string>
+
+
 </resources>
