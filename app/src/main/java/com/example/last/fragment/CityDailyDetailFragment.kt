@@ -9,6 +9,8 @@ import androidx.databinding.DataBindingUtil
 import com.example.last.R
 import com.example.last.databinding.FragmentOneDayDetailBinding
 import com.example.last.model.CityDailyResponse
+import android.widget.Button
+import androidx.navigation.fragment.findNavController
 
 
 class CityDailyDetailFragment : Fragment() {
@@ -34,8 +36,17 @@ class CityDailyDetailFragment : Fragment() {
         val cityDailyResponse = arguments?.getParcelable<CityDailyResponse.Forecast>("cityWeatherDetail")
         dataBinding.detail = cityDailyResponse
         return dataBinding.root
+
+
     }
 
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
+        // Setup the back button
+        dataBinding.backButton.setOnClickListener {
+            findNavController().navigateUp()
+        }
+    }
 }

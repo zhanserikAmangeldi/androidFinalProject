@@ -18,6 +18,15 @@
         layoutBackgroundImage="@{detail.weather.get(0).icon}"
         tools:context=".fragment.CityDailyDetailFragment">
 
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+<!--            android:background="@drawable/back_button"-->
+
 
         <View
             android:id="@+id/locationBackgroundView"

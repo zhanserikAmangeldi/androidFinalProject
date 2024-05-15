@@ -17,6 +17,9 @@ import com.example.last.adapter.CityDailyAdapter
 import com.example.last.util.Constant.latitude
 import com.example.last.util.Constant.longitude
 import im.delight.android.location.SimpleLocation
+import androidx.navigation.fragment.findNavController
+import android.content.Context
+import com.example.last.PreferenceManager
 
 
 class CityDailyFragment : Fragment() {
@@ -28,6 +31,8 @@ class CityDailyFragment : Fragment() {
     private lateinit var dataBinding: FragmentCityDailyBinding
 
     private var cityDailyAdapter = CityDailyAdapter(arrayListOf())
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
