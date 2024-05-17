@@ -1,4 +1,4 @@
-package com.example.last.fragment
+package com.example.last.ui.view.fragment
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -18,7 +18,7 @@ import com.example.last.util.Constant.latitude
 import com.example.last.util.Constant.longitude
 import com.example.last.util.dateConverter
 import com.example.last.util.timeConverter
-import com.example.last.viewmodel.LocationViewModel
+import com.example.last.ui.viewmodel.LocationViewModel
 
 class LocationFragment : Fragment() {
 

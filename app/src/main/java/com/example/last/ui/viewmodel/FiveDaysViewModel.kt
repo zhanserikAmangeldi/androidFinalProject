@@ -1,11 +1,11 @@
-package com.example.last.viewmodel
+package com.example.last.ui.viewmodel
 
 import android.app.Application
 import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
-import com.example.last.model.ForecastResponse
-import com.example.last.api.WeatherAPIClient
+import com.example.last.model.entity.ForecastResponse
+import com.example.last.model.network.WeatherAPIClient
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.observers.DisposableSingleObserver

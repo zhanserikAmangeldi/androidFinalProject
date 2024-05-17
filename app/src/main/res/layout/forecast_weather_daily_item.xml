@@ -6,7 +6,7 @@
     <data>
         <variable
             name="dailyCityWeather"
-            type="com.example.last.model.CityDailyResponse.Forecast" />
+            type="com.example.last.model.entity.CityDailyResponse" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

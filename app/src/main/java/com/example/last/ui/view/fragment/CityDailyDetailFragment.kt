@@ -1,4 +1,4 @@
-package com.example.last.fragment
+package com.example.last.ui.view.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,8 +8,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import com.example.last.R
 import com.example.last.databinding.FragmentOneDayDetailBinding
-import com.example.last.model.CityDailyResponse
-import android.widget.Button
+import com.example.last.model.entity.CityDailyResponse
 import androidx.navigation.fragment.findNavController
 
 

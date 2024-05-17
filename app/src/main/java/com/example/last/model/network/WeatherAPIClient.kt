@@ -1,9 +1,8 @@
-package com.example.last.api
+package com.example.last.model.network
 
-import android.nfc.Tag
-import com.example.last.model.CityDailyResponse
-import com.example.last.model.ForecastResponse
-import com.example.last.model.WeatherResponse
+import com.example.last.model.entity.CityDailyResponse
+import com.example.last.model.entity.ForecastResponse
+import com.example.last.model.entity.WeatherResponse
 import com.example.last.util.Constant
 import io.reactivex.Single
 import okhttp3.OkHttpClient

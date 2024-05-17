@@ -1,4 +1,4 @@
-package com.example.last.adapter
+package com.example.last.ui.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.last.R
 import com.example.last.databinding.ForecastWeatherHourlyItemBinding
-import com.example.last.model.ForecastResponse
+import com.example.last.model.entity.ForecastResponse
 import com.example.last.util.dayConverter
 
 class HourlyAdapter(val hourlyList: ArrayList<ForecastResponse.Forecast>) :

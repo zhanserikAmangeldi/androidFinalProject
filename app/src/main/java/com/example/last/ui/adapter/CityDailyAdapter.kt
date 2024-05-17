@@ -1,18 +1,15 @@
-package com.example.last.adapter
+package com.example.last.ui.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.view.View
-import android.widget.TextView
 import androidx.core.os.bundleOf
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.example.last.R
 import com.example.last.databinding.ForecastWeatherDailyItemBinding
-import com.example.last.databinding.FragmentCityDailyBinding
-import com.example.last.model.CityDailyResponse
+import com.example.last.model.entity.CityDailyResponse
 
 
 class CityDailyAdapter(val cityDailyList: ArrayList<CityDailyResponse.Forecast>) :

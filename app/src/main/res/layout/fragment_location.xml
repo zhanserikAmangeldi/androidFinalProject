@@ -6,14 +6,14 @@
     <data>
         <variable
             name="locationGPS"
-            type="com.example.last.model.WeatherResponse"
+            type="com.example.last.model.entity.WeatherResponse"
             />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".fragment.LocationFragment"
+        tools:context=".ui.view.fragment.LocationFragment"
         >
 
         <androidx.constraintlayout.widget.ConstraintLayout

@@ -1,4 +1,4 @@
-package com.example.last.model
+package com.example.last.model.entity
 
 import android.os.Parcel
 import android.os.Parcelable

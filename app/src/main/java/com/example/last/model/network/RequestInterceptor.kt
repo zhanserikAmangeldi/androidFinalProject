@@ -1,4 +1,4 @@
-package com.example.last.api
+package com.example.last.model.network
 
 import com.example.last.util.Constant
 import okhttp3.Interceptor

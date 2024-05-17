@@ -6,29 +6,29 @@
     app:startDestination="@id/locationFragment">
     <fragment
         android:id="@+id/locationFragment"
-        android:name="com.example.last.fragment.LocationFragment"
+        android:name="com.example.last.ui.view.fragment.LocationFragment"
         tools:layout="@layout/fragment_location"
         android:label="LocationFragment" />
 
     <fragment
         android:id="@+id/fiveDaysFragment"
-        android:name="com.example.last.fragment.FiveDaysFragment"
+        android:name="com.example.last.ui.view.fragment.FiveDaysFragment"
         tools:layout="@layout/fragment_five_days"
         android:label="FiveDaysFragment" >
     </fragment>
 
     <fragment
         android:id="@+id/oneDayDetailFragment"
-        android:name="com.example.last.fragment.CityDailyDetailFragment"
+        android:name="com.example.last.ui.view.fragment.CityDailyDetailFragment"
         android:label="OneDayDetailFragment" >
         <argument
             android:name="cityWeatherDetail"
-            app:argType="com.example.last.model.CityDailyResponse" />
+            app:argType="com.example.last.model.entity.CityDailyResponse" />
     </fragment>
 
     <fragment
         android:id="@+id/oneDayFragment"
-        android:name="com.example.last.fragment.CityDailyFragment"
+        android:name="com.example.last.ui.view.fragment.CityDailyFragment"
         tools:layout="@layout/fragment_city_daily"
         android:label="OneDayFragment" >
         <action

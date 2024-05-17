@@ -1,4 +1,4 @@
-package com.example.last.fragment
+package com.example.last.ui.view.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -12,14 +12,11 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.last.R
 import com.example.last.databinding.FragmentCityDailyBinding
 import com.example.last.util.Constant
-import com.example.last.viewmodel.CityDailyViewModel
-import com.example.last.adapter.CityDailyAdapter
+import com.example.last.ui.viewmodel.CityDailyViewModel
+import com.example.last.ui.adapter.CityDailyAdapter
 import com.example.last.util.Constant.latitude
 import com.example.last.util.Constant.longitude
 import im.delight.android.location.SimpleLocation
-import androidx.navigation.fragment.findNavController
-import android.content.Context
-import com.example.last.PreferenceManager
 
 
 class CityDailyFragment : Fragment() {

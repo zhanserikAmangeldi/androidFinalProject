@@ -1,4 +1,4 @@
-package com.example.last
+package com.example.last.ui.view.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,7 @@ import android.os.CountDownTimer
 import android.view.WindowManager
 import android.view.animation.AnimationUtils
 import androidx.databinding.DataBindingUtil
+import com.example.last.R
 import com.example.last.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {

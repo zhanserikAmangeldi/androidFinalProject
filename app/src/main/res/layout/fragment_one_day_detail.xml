@@ -7,7 +7,7 @@
     <data>
         <variable
             name="detail"
-            type="com.example.last.model.CityDailyResponse.Forecast" />
+            type="com.example.last.model.entity.CityDailyResponse" />
     </data>
 
 
@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         layoutBackgroundImage="@{detail.weather.get(0).icon}"
-        tools:context=".fragment.CityDailyDetailFragment">
+        tools:context=".ui.view.fragment.CityDailyDetailFragment">
 
         <Button
             android:id="@+id/back_button"

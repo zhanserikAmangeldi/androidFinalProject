@@ -1,8 +1,8 @@
-package com.example.last.api
+package com.example.last.model.network
 
-import com.example.last.model.CityDailyResponse
-import com.example.last.model.ForecastResponse
-import com.example.last.model.WeatherResponse
+import com.example.last.model.entity.CityDailyResponse
+import com.example.last.model.entity.ForecastResponse
+import com.example.last.model.entity.WeatherResponse
 import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Query
