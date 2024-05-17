@@ -11,7 +11,6 @@ import com.example.last.R
 import com.example.last.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
-
     private lateinit var dataBinding: ActivitySplashBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

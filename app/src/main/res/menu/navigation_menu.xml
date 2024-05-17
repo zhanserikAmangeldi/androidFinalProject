@@ -18,4 +18,10 @@
         android:title="@string/menu_location_text"
         app:showAsAction="always" />
 
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"
+        app:showAsAction="always" />
+
 </menu>

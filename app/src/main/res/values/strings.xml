@@ -14,6 +14,7 @@
     <string name="text_humidity">Humidity</string>
     <string name="text_visibility">Visibility</string>
     <string name="text_sunset">Sunset</string>
+    <string name="settings">Settings</string>
 
 
 </resources>
